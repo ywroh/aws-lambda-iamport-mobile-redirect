@@ -1,0 +1,9 @@
+{
+  "name": "aws-lambda-iamport-mobile-redirect",
+  "version": "1.0.0",
+  "description": "This is a nodejs project to handle iammport mobile redirection with aws lambda.",
+  "main": "index.js",
+  "repository": "https://github.com/ywroh/aws-lambda-iamport-mobile-redirect.git",
+  "author": "ywroh <ywroh2@gmail.com>",
+  "license": "MIT"
+}
