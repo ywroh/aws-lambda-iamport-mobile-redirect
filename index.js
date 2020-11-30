@@ -44,7 +44,7 @@ exports.handler = async (event, context, callback) => {
     console.log('CheckoutMobile paymentData\n', paymentData);
 
     const paymentDataCustomParse = JSON.parse(paymentData.custom_data);
-    params.TableName = '[Table_Name]';
+    //params.TableName = '[Table_Name]';
     params.Item = {
       order_merchantUid: merchant_uid,
       order_buyerName: paymentData.buyer_name,
@@ -71,7 +71,7 @@ exports.handler = async (event, context, callback) => {
         '[graphql_url]',
       method: 'post',
       headers: {
-        'x-api-key': '[api_key]',
+        'x-api-key': '[x_api_key]',
       },
       data: {
         query: `
